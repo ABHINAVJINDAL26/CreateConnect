@@ -23,7 +23,7 @@ const assetSchema = new mongoose.Schema(
     },
     fileType: {
       type: String,
-      enum: ['image', 'video'],
+      enum: ['image', 'video', 'document', 'audio', 'file'],
       required: true,
     },
     mimeType: {
